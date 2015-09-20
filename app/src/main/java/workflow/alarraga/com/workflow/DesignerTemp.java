@@ -1134,9 +1134,9 @@ public class DesignerTemp extends Activity{
         }
 
 
-        Mail m = new Mail("alexislarraga@gmail.com", "pass123");  //username and password 
+        Mail m = new Mail("mail@gmail.com", "pass123");  //username and password 
 
-        String[] toArr = {"alexislarraga@gmail.com"};
+        String[] toArr = {"mail@gmail.com"};
         m.set_to(toArr);
         m.set_from("alexislarraga@gmail.com");
         m.set_subject("This is an email sent using my Mail JavaMail wrapper from an Android device.");
