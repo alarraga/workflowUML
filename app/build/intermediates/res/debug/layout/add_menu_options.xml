@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/activity_button"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:layout_margin="15dp"
+            android:background="@mipmap/activitybut"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+        <ImageButton
+            android:id="@+id/if_button"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_margin="15dp"
+            android:layout_height="110dp"
+            android:background="@mipmap/condition"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+        <ImageButton
+            android:id="@+id/repeat_button"
+            android:layout_width="180dp"
+            android:layout_margin="15dp"
+            android:background="@mipmap/repeat"
+            android:layout_gravity="center"
+            android:layout_height="110dp"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/ale/Downloads/WorkflowUml-master%20(2)/workflowUML/app/src/main/res/layout/add_menu_options.xml -->

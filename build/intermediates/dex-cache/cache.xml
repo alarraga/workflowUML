@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ale\Downloads\WorkflowUml-master (2)\workflowUML\app\libs\activation.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\ale\Downloads\WorkflowUml-master (2)\workflowUML\app\build\intermediates\pre-dexed\debug\activation-893df02e302bd617718bf204a1e13c33271c5f15.jar" />
+    </item>
+    <item
+        jar="C:\Users\ale\Downloads\WorkflowUml-master (2)\workflowUML\app\libs\mail.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\ale\Downloads\WorkflowUml-master (2)\workflowUML\app\build\intermediates\pre-dexed\debug\mail-88b3eba153a130be79e302052b35cac2709e822f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ale\Downloads\WorkflowUml-master (2)\workflowUML\app\libs\additionnal.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\ale\Downloads\WorkflowUml-master (2)\workflowUML\app\build\intermediates\pre-dexed\debug\additionnal-ea18ad398c08a186a5f57b9ece9245bf5e9336ba.jar" />
+    </item>
+
+</items>

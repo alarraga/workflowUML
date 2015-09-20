@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="#e16d0c"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <WebView
+            android:id="@+id/web_designer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+        </WebView>
+
+        <TextView
+            android:id="@+id/temp_banner"
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:layout_centerInParent="true"
+            android:textColor="#D34C1C"
+            android:layout_height="wrap_content"
+            android:text="Choose the drawing of the pencil to create the game workflow"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/ale/Downloads/WorkflowUml-master%20(2)/workflowUML/app/src/main/res/layout/designer_temp.xml -->

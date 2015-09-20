@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+
+    android:background="#fff"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/temp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/steps_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:layout_height="wrap_content"
+                android:text="Walk"/>
+            <EditText
+                android:id="@+id/steps_count"
+                android:layout_width="wrap_content"
+                android:inputType="number"
+                android:textColor="#31554B"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:enabled="false"
+                android:hint="steps"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/wait_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="Wait"/>
+            <EditText
+                android:id="@+id/seconds_count"
+                android:layout_width="wrap_content"
+                android:enabled="false"
+                android:textSize="20dp"
+                android:textColor="#31554B"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:hint="seconds"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:text="Seconds"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/right_turn_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+            <TextView
+                android:textColor="#31554B"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="Turn Right"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/left_turn_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="Turn left"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/say_something_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+            <TextView
+                android:textColor="#31554B"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="Say"/>
+            <EditText
+                android:id="@+id/say_something_text"
+                android:textColor="#31554B"
+                android:layout_width="wrap_content"
+                android:enabled="false"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:hint="type something"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/standUp_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Stand Up"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/sitDown_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Sit Down"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/crouch_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Crouch"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/layDown_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Lay Down"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/layBelly_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Lay on Belly"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/sitRelax_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Sit Relax"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/dance_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Dance"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/detectColor_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#31554B"
+                android:textSize="19dp"
+                android:text="Detect Color"/>
+            <EditText
+                android:id="@+id/color_name"
+                android:textColor="#31554B"
+                android:layout_width="wrap_content"
+                android:enabled="true"
+                android:layout_height="wrap_content"
+                android:textSize="19dp"
+                android:hint="color name"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/go_button"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_margin="3dp"
+        android:background="#49ab76"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_below="@+id/temp"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+</RelativeLayout><!-- From: file:/C:/Users/ale/Downloads/WorkflowUml-master%20(2)/workflowUML/app/src/main/res/layout/activities_list.xml -->
